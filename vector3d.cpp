@@ -52,4 +52,6 @@ Vector3D operator*(double scalar, const Vector3D& v) {
 
 Vector3D operator/(double scalar, const Vector3D& v) {
     return Vector3D(scalar / v.x, scalar / v.y, scalar / v.z);
+
+     
 }
